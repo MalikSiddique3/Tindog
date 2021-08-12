@@ -1,0 +1,182 @@
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+
+
+h1 , h2 ,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.price{
+    font-size: 1.5rem;
+}
+
+#ctah{
+    color: white;
+    font-weight: bold;
+}
+.card-header{
+    color: black;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+ 
+
+ .navbar-brand{
+     font-family: "Ubuntu";
+     font-size: 2.5rem;
+     font-weight: bold;
+ }
+
+ .navbar{
+     padding: 0;
+    padding-bottom: 4.5rem;
+
+ }
+
+ .nav-item{
+     padding-left: 18px;
+     padding-right: 18px;
+ }
+
+ .nav-link{
+     font-size: 1.2rem;
+ }
+
+ .downloadButton{
+     margin: 5% 3% 5% 0;
+ }
+
+ .titleImage{
+     width: 25%;
+     transform: rotate(25deg);
+      position: absolute;
+      
+     
+ }
+@media (max-width: 1028px){
+    .titleImage{
+        width: 60%;
+         position: static;     
+         transform: rotate(0deg);
+        
+    }
+
+    #title{
+        text-align: center;
+    }
+
+}
+ #features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+
+ .icon{
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 4%;
+
+ }
+ .icon:hover {
+     color: #ff4c68;
+ }
+
+ .feature{
+    
+     font-size: 1.1rem;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+ }
+.f2{
+    color: #8f8f8f;
+}
+
+
+
+ .box{
+     text-align: center;
+     padding: 5%;
+ }
+
+ /* TESTIMONIAl */
+
+ #testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+ }
+ .testimonialImage{
+     width: 15%;
+     border-radius: 100%;
+    margin: 20px;
+ }
+
+ .carousel-item{
+    padding: 7% 15%;
+ }
+/* 
+ PRESSS */
+ #press{
+     background-color: #ef8172;
+     text-align: center;
+     padding: 3%;
+ }
+
+ .pressLogo{
+     width: 15%;
+     margin: 20px;
+     margin-bottom: 50px;
+ }
+
+
+/* Pricing */
+.signBtn{
+    width: 90%;
+    margin-bottom: 20px;
+    
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricingCol{
+    padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 10% 15%;
+}
+
+.ctaBtn{
+    margin: 3% 2%;
+}
+#footer i{
+    margin-right: 20px;
+}
+#footer{
+    padding: 7%;
+    text-align: center;
+}
+
